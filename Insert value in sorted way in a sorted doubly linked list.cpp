@@ -17,7 +17,7 @@ struct Node* getNode(int data)
 	newNode->prev = newNode->next = NULL; 
 	return newNode; 
 } 
-oid sortedInsert(struct Node** head_ref, struct Node* newNode) 
+void sortedInsert(struct Node** head_ref, struct Node* newNode) 
 { 
 	struct Node* current; 
 
