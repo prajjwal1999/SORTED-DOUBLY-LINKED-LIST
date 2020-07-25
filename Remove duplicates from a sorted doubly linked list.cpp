@@ -20,7 +20,7 @@ void deleteNode(struct Node** head_ref, struct Node* del)
 	if (*head_ref == del) 
 		*head_ref = del->next; 
 
-		is NOT the last node */
+		/*is NOT the last node */
 	if (del->next != NULL) 
 		del->next->prev = del->prev; 
 
